@@ -1,9 +1,16 @@
-* {
+ /* * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
-
+*/
+  :root {
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --section-color: #eff7fa;
+  }
   body {
-    font-family: "Work Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
   }
