@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - templeteTest</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="~/templeteTest.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <div class="row justify-content-end">
+            <div class="nav-Logo col-lg-2 col-sm-1 d-none d-lg-block">
+                <a class="navbar-brand text-center text-white mb-5 " asp-area="" asp-controller="Home" asp-action="Index">جهة بيانات مثاليه </a>
+                <figcaption class="sub-pr ">  ضابط نظام 123452213 u</figcaption>
+
+            </div>
+
+
+            <nav class="  col-lg-10 col-md-12 col-xs-12 navbar navbar-expand-lg navbar-toggleable-lg navbar-light bg-white navbar-custom ">
+
+                <div class="container-fluid navbar-custom  ps-4 pe-4">
+                   
+                        <a class=" mt-2 navbar-brand text-center text-white mb-2   " asp-area="" asp-controller="Home" asp-action="Index">
+                            <img src="~/images/Logo.png" />
+                            </a>
+                             <div class="nav-item  d-none d-md-block">
+
+                                    <figcaption class="pe-2 pt-2 main-title">
+                                        IT Planing and Budgeting System
+                                    </figcaption>
+                                    <figcaption class="pe-2 pt-2 secondary-title">نظام تخطيط و متابعه احتياجات تكنولوجيا المعلومات </figcaption>
+                                </div>
+                                    
+              
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="true" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class=" navbar-collapse collapse d-lg-inline-flex justify-content-between ">
+
+                        
+                        <ul class="navbar-nav flex-grow-1">
+                            
+                           
+
+                            <ul class="navbar-nav  me-auto ">
+
+
+                                <li class="nav-item dropdown d-lg-none  p-2">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        جهة بيانات مثالية
+                                    </a>
+                                    <ul class="dropdown-menu col-sm-1 pe-0 ps-0" aria-labelledby="navbarDropdown">
+                                        <li class="nav-item">
+                                            <a href="#" class=" mt-4 nav-link align-middle px-2">
+                                                <i class="fs-4 bi-house">
+
+                                                </i> <span class="ms-1  d-sm-inline sideBar-title">الرئيسية</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#submenu1" data-bs-toggle="collapse" class=" mt-4 nav-link px-0 align-middle">
+                                                <i class="fs-4 bi-speedometer2">
+                                                    <img src="~/images/needs.svg" />
+                                                </i> <span class="ms-1  d-sm-inline sideBar-title">الاحتياجات</span>
+                                            </a>
+
+                                        </li>
+                                        <li>
+                                            <a href="#" class=" mt-4 nav-link px-0 align-middle">
+                                                <i class="fs-4 bi-table">
+                                                    <img src="~/images/projects.svg" />
+
+                                                </i> <span class="ms-1  d-sm-inline sideBar-title">المشروعات</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#submenu2" data-bs-toggle="collapse" class=" mt-4 nav-link px-0 align-middle ">
+                                                <i class="fs-4 bi-bootstrap">
+
+                                                    <img src="~/images/attachments.svg" />
+
+                                                </i> <span class="ms-1  d-sm-inline sideBar-title">بيانات الجهة</span>
+                                            </a>
+
+                                        </li>
+                                        <li>
+                                            <a href="#submenu3" data-bs-toggle="collapse" class=" mt-4 nav-link px-0 align-middle">
+                                                <i class="fs-4 bi-grid">
+                                                    <img src="~/images/users.svg" />
+
+                                                </i> <span class="ms-1  d-sm-inline sideBar-title">قائمة المستخدمين</span>
+                                            </a>
+
+                                        </li>
+                                        <li>
+                                            <a href="#" class=" mt-4 nav-link px-0 align-middle">
+                                                <i class="fs-4 bi-people">
+
+                                                    <img src="~/images/reports.svg" />
+
+                                                </i> <span class=" ms-1  d-sm-inline sideBar-title">التقارير</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class=" mt-4 nav-link px-0 align-middle">
+                                                <i class="fs-4 bi-people">
+                                                    <img src="~/images/attachments.svg" />
+
+                                                </i> <span class="  ms-1  d-sm-inline sideBar-title">المرفقات</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class=" mt-4 nav-link px-0 align-middle">
+                                                <i class="fs-4 bi-people"></i> <span class=" ms-1  d-sm-inline sideBar-title">دليل المستخدم</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item p-2 ">
+                                    <img src="~/images/msg-icon.svg" />
+                                </li>
+                                <li class="nav-item p-2 ">
+                                    <img src="~/images/logout-icon.svg" />
+                                </li>
+                            </ul>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+       
+    </header>
+   
+
+
+    <div class=" container-fluid p-0 m-0 ">
+
+       
+        <div class="row ">
+            <div class=" col-md-2 col-sm-0 d-none d-lg-block custom-sideBar ">
+               
+                <div class="  d-flex flex-column align-items-center align-items-sm-start px-0 pt-2 text-white min-vh-100 ">
+                   
+
+                    <ul class="  nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start mt-4" id="menu">
+                        <li class="nav-item">
+                            <a  class=" mt-4  nav-link align-middle px-2" asp-controller="Home" asp-action="goTohome">
+                                <i class="fs-4 bi-house">
+
+                                </i> <span class="ms-1 d-none d-sm-inline sideBar-title">الرئيسية</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class=" mt-4 nav-link px-0 align-middle">
+                                <i class="fs-4 bi-speedometer2">
+                                     <img src="~/images/needs.svg" />
+                                </i> <span class="ms-1 d-none d-sm-inline sideBar-title">الاحتياجات</span>
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="#" class=" mt-4 nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table">
+                                    <img src="~/images/projects.svg" />
+
+                                </i> <span class="ms-1 d-none d-sm-inline sideBar-title">المشروعات</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#submenu2" data-bs-toggle="collapse" class=" mt-4 nav-link px-0 align-middle ">
+                                <i class="fs-4 bi-bootstrap">
+
+                                    <img src="~/images/attachments.svg" />
+
+                                </i> <span class="ms-1 d-none d-sm-inline sideBar-title">بيانات الجهة</span>
+                            </a>
+                           
+                        </li>
+                        <li>
+                            <a href="#submenu3" data-bs-toggle="collapse" class=" mt-4 nav-link px-0 align-middle">
+                                <i class="fs-4 bi-grid">
+                                    <img src="~/images/users.svg" />
+
+                                </i> <span class="ms-1 d-none d-sm-inline sideBar-title">قائمة المستخدمين</span>
+                            </a>
+                           
+                        </li>
+                        <li>
+                            <a href="#" class=" mt-4 nav-link px-0 align-middle">
+                                <i class="fs-4 bi-people">
+
+                                     <img src="~/images/reports.svg"/>
+
+                                </i> <span class=" ms-1 d-none d-sm-inline sideBar-title">التقارير</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class=" mt-4 nav-link px-0 align-middle">
+                                <i class="fs-4 bi-people">
+                                    <img src="~/images/attachments.svg"/>
+
+                                </i> <span class="  ms-1 d-none d-sm-inline sideBar-title">المرفقات</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class=" mt-4 nav-link px-0 align-middle">
+                                <i class="fs-4 bi-people"></i> <span class=" ms-1 d-none d-sm-inline sideBar-title">دليل المستخدم</span>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    <hr>
+                  
+                </div>
+            </div>
+            <div class="col  mt-3 justify-content-center">
+                <div class="container-fluid">
+                    <main  class="pb-3">
+                        @RenderBody()
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+   
+
+    <footer class="border-top footer text-muted mt-5">
+        <div class="container-fluid">
+           
+            <div class=" row    card-background text-center  align-items-center">
+
+
+                <span>جميع الحقوق محفوظه للجهاز المركزي لتكنولوجيا المعلومات</span>
+
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

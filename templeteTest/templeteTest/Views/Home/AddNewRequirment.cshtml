@@ -1,0 +1,371 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="text-end mainTitle mb-5">
+    <span style="color: #4E586D;" >الرئيسية
+        </span>
+    <span style="color: #4E586D;">
+        >>الاحتياجات
+    </span>
+    <span style="color: #000000;">>> اجمالي الاحتياجات</span>
+
+</div>
+
+<div class=" row  ms-2 me-2 mb-4  card-background  justify-content-between  align-items-center">
+    <div  class="  col me-4 pb-4 ">
+        <i class="fs-4 bi-speedometer2">
+            <img src="~/images/needs.svg" />
+        </i> <span class="ms-1  d-sm-inline sideBar-title card-Title ">إضافة احتياج جديد</span>
+    </div>
+
+
+</div>
+
+<div class="row mt-6 d-flex justify-content-between">
+
+    <div class=" col-12 col-lg-8  ">
+        <span class="card-Title ">بيانات اساسية</span>
+
+
+
+        <form class="mt-3 ">
+
+            <div class="row  d-flex  align-items-center">
+                <div class="col-5">
+                    <label for="inputEmail4" class="mb-1">موضوع الاحتياج</label>
+
+                    <input type="text" class="form-control  col border-1 border-dark" placeholder="احتياجات تكنولوجيا المعلومات">
+                    
+
+                </div>
+
+
+                <div class="col-5">
+
+                    <label classfor="inputEmail4" class="mb-1" >نوع الانفاق</label>
+                    <select id="inputState" class="form-control border-1 border-dark">
+                        <option selected>نفقات رأس مالية</option>
+                        <option>...</option>
+                    </select>
+                    
+                </div>
+
+            </div>
+               <div class="row  d-flex align-items-center mt-4">
+                <div class="col-5">
+                    <label for="inputEmail4" class="mb-1">بند المحاسبة الفرعي</label>
+
+                    <select id="inputState" class="form-control border-1 border-dark">
+                        <option selected>وسائط تشغيل مرئية</option>
+                        <option>...</option>
+                    </select>
+                    
+
+                </div>
+
+
+                <div class="col-5">
+
+                    <label classfor="inputEmail4" class="mb-1">رقم الحساب</label>
+                    <input type="text" class="form-control col border-1 border-dark " placeholder="22726259">
+                    
+                </div>
+
+            </div>
+
+
+            <div class=" row  ms-2 me-1 mb-4  mt-5  p-2   justify-content-evenly  align-items-center  green-background">
+                <div class="  col me-4 pb-4  pt-4 border-5 border-success ">
+                    <span class="ms-1   d-sm-inline  ">
+                        
+                        <span class=""> وسائط تشغيل مرئية</span>, تشمل أجهزة العرض والشاشات والاجهازة الخاصة بإدخال الصور والبيانات ةاجهزة البث
+                    </span>
+                </div>
+
+
+            </div>
+
+            <div class="row  d-flex align-items-center mt-4">
+                <div class="col-5">
+                    <label for="inputEmail4" class="mb-1">نوع الطلب</label>
+
+                    <select id="inputState" class="form-control border-1 border-dark">
+                        <option selected>مستمر</option>
+                        <option>...</option>
+                    </select>
+
+
+                </div>
+
+
+                <div class="col-5">
+
+                    <label classfor="inputEmail4" class="mb-1">النوع الجزئي</label>
+                    <select id="inputState" class="form-control border-1 border-dark">
+                    <option selected>ابحاث</option>
+                        <option>...</option>
+                    </select>
+
+
+                </div>
+
+            </div>
+
+               <div class=" row  ms-2 me-1 mb-4  mt-5  p-2   justify-content-evenly  align-items-center  green-background">
+                <div class="  col me-4 pb-4  pt-4 border-5 border-success ">
+                    <i class="fs-4 bi-speedometer2">
+                        <img src="~/images/green-notice.svg" />
+                    </i>
+                    <span class="ms-1   d-sm-inline  d-block  "><span class=""> احتياج مستمر</span> : هو احتياج له عقد ساري وممتد للسنة المالية قيد الاعداد والدراسة (له دفعات محددة) او احتياج متوقع توقيع عقده خلال السنة المالية الحالية (يقدر له المبلغ كامل)</span>
+                </div>
+
+
+            </div>
+
+
+            <span class="card-Title mb-5 ">التصنيف الفنى</span>
+
+
+            <div class="row  mt-2   align-content-center"> 
+
+                <div class="row col-md-2 ">
+                    <span>غير محدد</span>
+
+
+                </div>
+                <div class="row col-md-4 ">
+                    <span class="col ">اختيار الكل</span>
+                    <span class="col">تحديد الكل</span>
+
+
+                </div>
+
+                <div class="row col-md-2 ">
+                    <span> محدد</span>
+
+
+                </div>
+                <div class="row col-md-4">
+                    <span class="col">اختيار الكل</span>
+                    <span class="col">تحديد الكل</span>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="row mt-5 mb-3 d-flex justify-content-center">
+
+
+                <div class="col-5">
+                    <label for="inputEmail4" class="mb-1">بحث</label>
+
+                    <input type="text" class="form-control  col border-1 border-dark" placeholder="بحث">
+
+
+                </div>
+            </div>
+
+
+            <div class="container mt-5 md-5 ">
+
+                <div class="row">
+                    <div class="col-6"> 
+
+                        <select class="form-select" size="9" aria-label="size 9 select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">اجهزة حاسب ولحقاته</option>
+                            <option value="2">اجهزة شبكات</option>
+                            <option value="3">ادهزة خوادم</option>
+                            <option value="3">مراكز البيانات</option>
+                            <option value="3">حوسبة سحابية</option>
+                            <option value="3">احبار الطابعات</option>
+                            <option value="3">امن المعلومات</option>
+                            
+                        </select>
+
+                    </div>
+
+                    <div class="col-6">
+                        <select class="form-select" size="9" aria-label="size 9 select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">استشارات</option>
+                            <option value="2">عقود عمالة متخصصة</option>
+                            <option value="3">خدمات انترنت</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                
+
+                
+
+
+            </div>
+
+            <div class="mt-5">
+
+                <span class="card-Title mb-3">التكاليف</span>
+                <div class="row  mt-3 d-flex  align-items-center">
+                    <div class="col-5">
+                        <label for="inputEmail4" class="mb-1">الكمية</label>
+
+                        <input type="number" class="form-control  col border-1 border-dark" placeholder="6">
+
+
+                    </div>
+
+
+                    <div class="col-5">
+
+                        <label classfor="inputEmail4" class="mb-1">القيمة</label>
+                        <input type="text" class="form-control  col border-1 border-dark" placeholder="6">
+
+                    </div>
+
+                </div>
+                <div class="row  d-flex align-items-center mt-4">
+                    <div class="col-5">
+                        <label for="inputEmail4" class="mb-1">المواصفات</label>
+                        <textarea type="text" class="form-control col border-1 border-dark " placeholder="مجموعة أبحاث تم طلبها بخصوص موضوعات التنمية"></textarea>
+
+
+                    </div>
+
+
+                    <div class="col-5">
+
+                        <label classfor="inputEmail4" class="mb-1">المبررات</label>
+                        <textarea type="text" class="form-control col border-1 border-dark " placeholder="توفير خطة تنمية متكاملة الابعاد للمشاريع الحالية و المستقبلية"></textarea>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="mt-5 row d-flex justify-content-end">
+                <button type="submit" class="btn    col-md-1 m-2 p-0 btn-secondary"> حفظ</button>
+            </div>
+
+            
+            
+        </form>
+
+
+        
+   
+
+    </div>
+    <div class=" col-12 col-lg-3  mt-5  "> 
+
+        <div class="card custom-sideBar p-3 pb-0">
+
+            <div class="card-body">
+                <div class="  col me-4 pb-4  text-center card-title">
+                    <i class="fs-4 bi-speedometer2">
+                        <img src="~/images/attachments.svg" />
+                    </i> <span class="ms-1  d-sm-inline sideBar-title card-Title ">المرفقات</span>
+                </div>
+                </div>
+
+            <span class="card-subtitle mb-5 text-muted me-4 ">المرفقات المدرجة</span>
+
+
+            <div class=" row  p-0 mb-4   justify-content-between  align-items-center">
+                <div class="  col-lg-7  col-sm-12 ">
+                    <span class="ms-1 col-6 d-sm-inline sideBar-title card-Title ">تكاليف أبحاث التنمية.ppt</span>
+
+                    <span class="ms-1  col-6 d-sm-inline  ">محمد احمد - 20/11/2021</span>
+                </div>
+
+                <div class="col-lg-3 justify-content-between me-0 me-md-5 ">
+                    <a>
+                        تحميل
+                    </a>
+                    <a>
+
+                        ازاله
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+           <div class=" row  p-0 mb-4   card-background justify-content-between  align-items-center">
+                <div class="  col-lg-7  col-sm-12 ">
+                    <span class="ms-1 col-6 d-sm-inline sideBar-title card-Title ">تكاليف أبحاث التنمية.ppt</span>
+
+                    <span class="ms-1  col-6 d-sm-inline  ">محمد احمد - 20/11/2021</span>
+                </div>
+
+                <div class="col-lg-3 justify-content-between me-0 me-md-5 ">
+                    <a>
+                        تحميل
+                    </a>
+                    <a>
+
+                        ازاله
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+            <div class=" row  p-0 mb-4   justify-content-between  align-items-center">
+                <div class="  col-lg-7  col-sm-12 ">
+                    <span class="ms-1 col-6 d-sm-inline sideBar-title card-Title ">تكاليف أبحاث التنمية.ppt</span>
+
+                    <span class="ms-1  col-6 d-sm-inline  ">محمد احمد - 20/11/2021</span>
+                </div>
+
+                <div class="col-lg-3 justify-content-between me-0 me-md-5 ">
+                    <a>
+                        تحميل
+                    </a>
+                    <a>
+
+                        ازاله
+                    </a>
+
+
+                </div>
+
+
+            </div>
+          
+            <div class=" row  pt-3 mb-0   card-background justify-content-between  align-items-center">
+                <div class="  col-7 ">
+                    <span class="ms-1  d-sm-inline  ">ادراج مرفق</span>
+                </div>
+
+                <div class="col-md-12 justify-content-between me-0 me-md-5 ">
+                    <a class="btn col-5 ">
+                        تحميل
+                    </a>
+                    <a class="btn col-5">
+
+                        ازاله
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+            
+
+    </div>
+
+
+</div>

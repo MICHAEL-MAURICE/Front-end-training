@@ -1,0 +1,19 @@
+﻿body {
+    font: normal normal bold 20px/26px Almarai;
+}
+.password, .user-name, .check {
+    font: normal normal normal 12px/14px Almarai;
+}
+.footer {
+    font: normal normal normal 18px/26px Almarai;
+    color: #4E586D;
+}
+
+.submit-btn {
+    background: #4E586D 0% 0% no-repeat padding-box;
+    font: normal normal normal 12px/14px Almarai;
+   padding:10;
+    text-align: center;
+    width: 355px;
+    height: 40px;
+}

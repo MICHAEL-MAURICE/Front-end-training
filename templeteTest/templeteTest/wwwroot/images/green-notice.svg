@@ -1,0 +1,7 @@
+<svg id="green-notice" xmlns="http://www.w3.org/2000/svg" width="24" height="21.662" viewBox="0 0 24 21.662">
+  <g id="exclamation-mark">
+    <path id="Path_36" data-name="Path 36" d="M21.647,23.662H4.194a3.274,3.274,0,0,1-2.835-4.91L10.085,3.637a3.274,3.274,0,0,1,5.67,0l8.727,15.115a3.274,3.274,0,0,1-2.835,4.91Z" transform="translate(-0.921 -2)" fill="#8ea"/>
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="1.083" cy="1.083" r="1.083" transform="translate(10.917 15.163)" fill="#1caf4d"/>
+    <path id="Path_37" data-name="Path 37" d="M12.083,14.5A1.083,1.083,0,0,1,11,13.415V9.083a1.083,1.083,0,1,1,2.166,0v4.332A1.083,1.083,0,0,1,12.083,14.5Z" transform="translate(-0.083 -1.501)" fill="#1caf4d"/>
+  </g>
+</svg>

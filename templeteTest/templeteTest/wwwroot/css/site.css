@@ -1,0 +1,141 @@
+*{
+    direction:rtl;
+   
+        
+}
+.navbar-custom {
+    
+    height: 80px;
+    top: 0px;
+    left: 0px;
+    background: #E4E7EB 0% 0% no-repeat padding-box;
+    padding: 0px;
+    border: 0;
+    
+}
+
+.sideBar-title {
+    text-align: right;
+    font: normal normal normal 14px/16px Almarai;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.mainTitle {
+    text-align: right;
+    font: normal normal normal 12px/14px Almarai;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.card-background {
+    background: #E5E5E5 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+   
+  
+}
+
+.green-background {
+    background: #D2F8DF 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+.card-Title {
+    text-align: right;
+    font: normal normal normal 18px/20px Almarai;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.search-terms {
+    text-align: right;
+    font: normal normal bold 16px/25px Almarai;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.table-rows {
+    height: 4rem;
+    
+}
+.table-content-row {
+    text-align: right;
+    font: normal normal normal 16px/18px Almarai;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.custom-sideBar {
+    background: #E4E7EB 0% 0% no-repeat padding-box;
+    /* width: 230px;*/
+    text-align: right;
+    font: normal normal normal 14px/16px Almarai;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.nav-Logo {
+   /* width: 219px;*/
+    background: #4E586D 0% 0% no-repeat padding-box;
+    height: 80px;
+    left: 0px;
+    padding-top: 20px;
+    text-align: right;
+    font: normal normal normal 14px/16px Almarai;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.table-head {
+    background: #E4E7EB 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+}
+.small-card {
+    background: #7B8794 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+}
+.small-card :nth-child(5){
+
+}
+
+.main-title {
+    font: normal normal normal 18px/20px Almarai;
+    color: #706F6F;
+    font-weight: bold;
+}
+.secondary-title {
+    font: normal normal normal 16px/18px Almarai;
+    letter-spacing: 0px;
+    color: #706F6F;
+    opacity: 0.7;
+}
+.sub-pr {
+    font: normal normal normal 10px/11px Almarai;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    text-align: start;
+    padding-right: 20px;
+}
+
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}

@@ -1,0 +1,180 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-end mainTitle mb-5">
+    <span style="color: #4E586D;" >الرئيسية
+        </span>
+    <span style="color: #000000;">>> اجمالي الاحتياجات</span>
+    
+</div>
+
+<div class=" row  ms-2 me-2 mb-4  card-background  justify-content-evenly  align-items-center">
+    <div  class="  col me-4 pb-4 ">
+        <i class="fs-4 bi-speedometer2">
+            <img src="~/images/needs.svg" />
+        </i> <span class="ms-1  d-sm-inline sideBar-title card-Title ">اجمالى الاحتياجات المدرجة</span>
+    </div>
+
+    <div class="col-md-1 col-2 justify-content-around me-0 me-md-5 ">
+        <a>
+            <img src="~/images/print.svg" />
+        </a>
+        <a >
+
+            <img src="~/images/add-icon-green.svg" />
+        </a>
+        
+
+    </div>
+        
+
+</div>
+
+
+<div class=" row  ms-2 me-2 mb-5  card-background justify-content-evenly  align-items-center">
+    <div class="  col-12 me-4 pb-4 mb-4">
+        <i class="fs-4 bi-speedometer2">
+            <img src="~/images/search.svg" />
+        </i> <span class="ms-1  d-sm-inline sideBar-title card-Title ">بحث</span>
+    </div>
+
+    <div class="pb-3">
+
+       <form>
+  <div class="row  d-flex justify-content-around align-items-center">
+    <div class="col-4">
+        <div class="row d-flex justify-content-start">
+                        <label class=" col  card-Title">
+                        البند المحاسبي الفرعي
+                        </label>
+                        <select id="inputState" class="form-control col">
+                            <option selected>أفلام واشرطة (DVD)</option>
+                            <option>...</option>
+                        </select>
+        </div>
+        
+    </div>
+
+
+    <div class="col-3">
+                    <div class="row d-flex justify-content-start">
+                        <label class="col card-Title">
+                            العام المالى
+                        </label>
+                        <select id="inputState" class="form-control col">
+                            <option selected>2021/2022</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+    </div>
+
+
+                <div class="col-2 ms-5 d-flex justify-content-end">
+                    <a class="btn btn-secondary card-Title"> بحث</a>
+                </div>
+                <div class="col-2 ms-5 d-flex justify-content-end">
+                    <a class="col-1 ms-5  text-end card-Title btn" asp-controller="Home" asp-action="AddNewRequirment">
+
+                        <span class="ms-sm-5"> المزيد</span>
+
+
+                    </a>
+                </div>
+               
+  </div>
+</form>
+    </div>
+
+    </div>
+
+
+
+
+    <div class=" row   ms-2 me-2 mb-4   justify-content-lg-start  align-items-center">
+
+    <div class="  col-lg-1 col-sm-2">
+        <span class=" d-inline-flex    search-terms">بنود البحث</span>
+    </div>
+    <div class="justify-content-between col-lg-11 col-sm-9">
+        <div class="card d-inline-flex  small-card" style="width: 14rem;">
+          
+                <li class="list-group-item  justify-content-evenly small-card pt-0">
+                <span class="pe-0 text-white ms-3">نفقات تشغيلية</span>
+                <i class="fs-4 bi-speedometer2 pe-5 small-card me-1">
+                        <img src="~/images/remove-tag.svg" />
+                    </i>
+                </li>
+
+        </div>
+
+        <div class="card d-inline-flex small-card" style="width: 16rem;">
+            
+                <li class="list-group-item  justify-content-between small-card pt-0">
+                <span class="pe-0 text-white ms-2">أفلام واشرطة (DVD)</span>
+                <i class="fs-4 bi-speedometer2 pe-5 me-1">
+                        <img src="~/images/remove-tag.svg" />
+                    </i>
+                </li>
+
+           
+        </div>
+        <div class="card d-inline-flex small-card" style="width: 14rem;">
+            
+                <li class="list-group-item  justify-content-between small-card pt-0">
+                    <span class="pe-0 text-white ms-4">2021/2022</span>
+                    <i class="fs-4 bi-speedometer2 pe-5 me-3">
+                        <img src="~/images/remove-tag.svg" />
+                    </i>
+                </li>
+
+            
+        </div>
+    </div>
+    
+ 
+    </div>
+
+
+    <div class="mt-5  col-md-12">
+        <div class="table-responsive">
+
+
+        <table class="table table-striped ">
+            <thead class="table-head border-bottom-0 table-rows ">
+                <tr class="table-striped mw-100 align-content-center pb-2 text-center ">
+                    <th scope="col">م</th>
+                    <th scope="col">عنوان الاحتياج</th>
+                    <th scope="col">النوع الجزئى</th>
+                    <th scope="col">بند المحاسبة الفرعى</th>
+                    <th scope="col">اسم المشروع</th>
+                    <th scope="col">الكمية</th>
+                    <th scope="col">القيمة</th>
+                    <th scope="col"> اجراء</th>
+
+                </tr>
+
+            </thead>
+
+
+            @for (int i = 0; i < 20; i++)
+            {
+                <tr class="table-striped table-rows text-center table-content-row">
+                    <td class="table-striped">73</td>
+                    <td class="table-striped">احتياجات تكنولوجيا المعلومات</td>
+                    <td class="table-striped">لا يوجد</td>
+                    <td class="table-striped">(DVD)أفلام واشرطة</td>
+                    <td class="table-striped">Test</td>
+                    <td class="table-striped">12</td>
+                    <td class="table-striped">K.D 1.245.676</td>
+                    <td class="table-striped 0p justify-content-around">
+                        <a class="btn pe-3"><img src="~/images/edit.svg" /></a>
+                        <a class="btn "><img src="~/images/remove.svg" /></a>
+                    </td>
+                </tr>
+            }
+
+        </table>
+        </div>
+  
+    </div>

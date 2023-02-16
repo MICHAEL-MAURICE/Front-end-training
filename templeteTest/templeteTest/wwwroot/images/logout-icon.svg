@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="logout-icon" transform="translate(-33 -24)">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="16" cy="16" r="16" transform="translate(33 24)" fill="#6d4e4e"/>
+    <g id="Group_168" data-name="Group 168" transform="translate(-19135 8994)">
+      <path id="Path_31" data-name="Path 31" d="M8.793,13.138V15H3V3H8.793V4.655H4.655v8.483Z" transform="translate(19176 -8963)" fill="#fff"/>
+      <path id="Icon_awesome-arrow-left" data-name="Icon awesome-arrow-left" d="M4.2,9.3l-.362.362a.39.39,0,0,1-.553,0L.112,6.487a.39.39,0,0,1,0-.553L3.283,2.762a.39.39,0,0,1,.553,0l.362.362a.392.392,0,0,1-.007.56L2.226,5.557H6.915a.391.391,0,0,1,.392.392v.522a.391.391,0,0,1-.392.392H2.226L4.192,8.736A.389.389,0,0,1,4.2,9.3Z" transform="translate(19183.797 -8960.21)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

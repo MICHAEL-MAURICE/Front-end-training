@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="remove-tag" transform="translate(-226 -66)">
+    <path id="Path_1" data-name="Path 1" d="M8,0A8,8,0,1,1,0,8,8,8,0,0,1,8,0Z" transform="translate(226 66)" fill="#e6a1a1"/>
+    <path id="Path_25" data-name="Path 25" d="M0,3,5.989,2.99M2.99,0,3,5.989" transform="translate(233.997 69.836) rotate(45)" fill="#6d4e4e" stroke="#6d4e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+  </g>
+</svg>
