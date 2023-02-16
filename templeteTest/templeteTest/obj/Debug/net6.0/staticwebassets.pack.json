@@ -101,6 +101,10 @@
       "PackagePath": "staticwebassets\\images\\suggested.svg"
     },
     {
+      "Id": "D:\\projects\\Template 1\\Front-end-training\\templeteTest\\templeteTest\\wwwroot\\images\\userguid.PNG",
+      "PackagePath": "staticwebassets\\images\\userguid.PNG"
+    },
+    {
       "Id": "D:\\projects\\Template 1\\Front-end-training\\templeteTest\\templeteTest\\wwwroot\\images\\users.svg",
       "PackagePath": "staticwebassets\\images\\users.svg"
     },

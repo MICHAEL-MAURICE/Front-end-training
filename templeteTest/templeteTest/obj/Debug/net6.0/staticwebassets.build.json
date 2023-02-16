@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "opai2IKk3ZutZEr6fvLOLcsu0gzdAj4XxktpVmw/4Qk=",
+  "Hash": "oWgrRPLQAGDFrYddsL8ADMI4WpJLQ61ntMRkryw3mSQ=",
   "Source": "templeteTest",
   "BasePath": "_content/templeteTest",
   "Mode": "Default",
@@ -457,6 +457,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\suggested.svg"
+    },
+    {
+      "Identity": "D:\\projects\\Template 1\\Front-end-training\\templeteTest\\templeteTest\\wwwroot\\images\\userguid.PNG",
+      "SourceId": "templeteTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projects\\Template 1\\Front-end-training\\templeteTest\\templeteTest\\wwwroot\\",
+      "BasePath": "_content/templeteTest",
+      "RelativePath": "images/userguid.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\userguid.PNG"
     },
     {
       "Identity": "D:\\projects\\Template 1\\Front-end-training\\templeteTest\\templeteTest\\wwwroot\\images\\users.svg",
