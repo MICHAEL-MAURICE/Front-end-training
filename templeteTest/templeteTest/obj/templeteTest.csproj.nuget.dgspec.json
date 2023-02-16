@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MichaelMaurice\\source\\repos\\templeteTest\\templeteTest\\templeteTest.csproj": {}
+    "D:\\projects\\Template 1\\Front-end-training\\templeteTest\\templeteTest\\templeteTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MichaelMaurice\\source\\repos\\templeteTest\\templeteTest\\templeteTest.csproj": {
+    "D:\\projects\\Template 1\\Front-end-training\\templeteTest\\templeteTest\\templeteTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MichaelMaurice\\source\\repos\\templeteTest\\templeteTest\\templeteTest.csproj",
+        "projectUniqueName": "D:\\projects\\Template 1\\Front-end-training\\templeteTest\\templeteTest\\templeteTest.csproj",
         "projectName": "templeteTest",
-        "projectPath": "C:\\Users\\MichaelMaurice\\source\\repos\\templeteTest\\templeteTest\\templeteTest.csproj",
+        "projectPath": "D:\\projects\\Template 1\\Front-end-training\\templeteTest\\templeteTest\\templeteTest.csproj",
         "packagesPath": "C:\\Users\\MichaelMaurice\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MichaelMaurice\\source\\repos\\templeteTest\\templeteTest\\obj\\",
+        "outputPath": "D:\\projects\\Template 1\\Front-end-training\\templeteTest\\templeteTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
