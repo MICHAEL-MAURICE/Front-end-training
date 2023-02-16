@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\images\\green-notice.svg"
     },
     {
+      "Id": "D:\\projects\\Template 1\\Front-end-training\\templeteTest\\templeteTest\\wwwroot\\images\\homeIcon.PNG",
+      "PackagePath": "staticwebassets\\images\\homeIcon.PNG"
+    },
+    {
       "Id": "D:\\projects\\Template 1\\Front-end-training\\templeteTest\\templeteTest\\wwwroot\\images\\loginLogo.PNG",
       "PackagePath": "staticwebassets\\images\\loginLogo.PNG"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "F47z5D8CVwRaIcHvqA0ca3GRGbiI6GH12so0BJT+0us=",
+  "Hash": "opai2IKk3ZutZEr6fvLOLcsu0gzdAj4XxktpVmw/4Qk=",
   "Source": "templeteTest",
   "BasePath": "_content/templeteTest",
   "Mode": "Default",
@@ -219,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\green-notice.svg"
+    },
+    {
+      "Identity": "D:\\projects\\Template 1\\Front-end-training\\templeteTest\\templeteTest\\wwwroot\\images\\homeIcon.PNG",
+      "SourceId": "templeteTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projects\\Template 1\\Front-end-training\\templeteTest\\templeteTest\\wwwroot\\",
+      "BasePath": "_content/templeteTest",
+      "RelativePath": "images/homeIcon.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\homeIcon.PNG"
     },
     {
       "Identity": "D:\\projects\\Template 1\\Front-end-training\\templeteTest\\templeteTest\\wwwroot\\images\\loginLogo.PNG",
