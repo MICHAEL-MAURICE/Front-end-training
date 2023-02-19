@@ -46,7 +46,7 @@
                 <div class="col-5">
 
                     <label classfor="inputEmail4" class="mb-1" >نوع الانفاق</label>
-                    <select id="inputState" class="form-control border-1 border-dark">
+                     <select id="inputState" class="form-select border-1 border-dark" aria-label="Default select example">
                         <option selected>نفقات رأس مالية</option>
                         <option>...</option>
                     </select>
@@ -58,7 +58,7 @@
                 <div class="col-5">
                     <label for="inputEmail4" class="mb-1">بند المحاسبة الفرعي</label>
 
-                    <select id="inputState" class="form-control border-1 border-dark">
+                    <select id="inputState" class="form-select border-1 border-dark" aria-label="Default select example">
                         <option selected>وسائط تشغيل مرئية</option>
                         <option>...</option>
                     </select>
@@ -79,9 +79,11 @@
 
             <div class=" row  ms-2 me-1 mb-4  mt-5  p-2   justify-content-evenly  align-items-center  green-background">
                 <div class="  col me-4 pb-4  pt-4 border-5 border-success ">
-                    <span class="ms-1   d-sm-inline  ">
+                    
+                    <span class="green-card-header"> وسائط تشغيل مرئية</span>
+                    <span class="ms-1   d-sm-inline green-card-body ">
                         
-                        <span class=""> وسائط تشغيل مرئية</span>, تشمل أجهزة العرض والشاشات والاجهازة الخاصة بإدخال الصور والبيانات ةاجهزة البث
+                        , تشمل أجهزة العرض والشاشات والاجهازة الخاصة بإدخال الصور والبيانات ةاجهزة البث
                     </span>
                 </div>
 
@@ -92,7 +94,7 @@
                 <div class="col-5">
                     <label for="inputEmail4" class="mb-1">نوع الطلب</label>
 
-                    <select id="inputState" class="form-control border-1 border-dark">
+                    <select id="inputState" class="form-select border-1 border-dark" aria-label="Default select example">
                         <option selected>مستمر</option>
                         <option>...</option>
                     </select>
@@ -104,7 +106,7 @@
                 <div class="col-5">
 
                     <label classfor="inputEmail4" class="mb-1">النوع الجزئي</label>
-                    <select id="inputState" class="form-control border-1 border-dark">
+                    <select id="inputState" class="form-select border-1 border-dark" aria-label="Default select example">
                     <option selected>ابحاث</option>
                         <option>...</option>
                     </select>
@@ -116,10 +118,12 @@
 
                <div class=" row  ms-2 me-1 mb-4  mt-5  p-2   justify-content-evenly  align-items-center  green-background">
                 <div class="  col me-4 pb-4  pt-4 border-5 border-success ">
-                    <i class="fs-4 bi-speedometer2">
+                    <i class="fs-4 bi-speedometer2 ">
                         <img src="~/images/green-notice.svg" />
                     </i>
-                    <span class="ms-1   d-sm-inline  d-block  "><span class=""> احتياج مستمر</span> : هو احتياج له عقد ساري وممتد للسنة المالية قيد الاعداد والدراسة (له دفعات محددة) او احتياج متوقع توقيع عقده خلال السنة المالية الحالية (يقدر له المبلغ كامل)</span>
+                    <span class=" green-card-header fw-bold"> احتياج مستمر</span>
+                    <span class="me-1  d-inline   green-card-body">: هو احتياج له عقد ساري وممتد للسنة المالية قيد الاعداد والدراسة (له دفعات محددة) 
+                        او احتياج متوقع توقيع عقده خلال السنة المالية الحالية (يقدر له المبلغ كامل)</span>
                 </div>
 
 
@@ -137,8 +141,8 @@
 
                 </div>
                 <div class="row col-md-4 ">
-                    <span class="col ">اختيار الكل</span>
-                    <span class="col">تحديد الكل</span>
+                    <span class="col fw-bold ">اختيار الكل</span>
+                    <span class="col fw-bold">تحديد الكل</span>
 
 
                 </div>
@@ -149,8 +153,8 @@
 
                 </div>
                 <div class="row col-md-4">
-                    <span class="col">اختيار الكل</span>
-                    <span class="col">تحديد الكل</span>
+                    <span class="col fw-bold">اختيار الكل</span>
+                    <span class="col fw-bold">تحديد الكل</span>
 
 
                 </div>
@@ -162,7 +166,7 @@
 
 
                 <div class="col-5">
-                    <label for="inputEmail4" class="mb-1">بحث</label>
+                    <label for="inputEmail4" class="mb-1 ">بحث</label>
 
                     <input type="text" class="form-control  col border-1 border-dark" placeholder="بحث">
 
@@ -177,7 +181,7 @@
                     <div class="col-6"> 
 
                         <select class="form-select" size="9" aria-label="size 9 select example">
-                            <option selected>Open this select menu</option>
+                            
                             <option value="1">اجهزة حاسب ولحقاته</option>
                             <option value="2">اجهزة شبكات</option>
                             <option value="3">ادهزة خوادم</option>
@@ -192,7 +196,7 @@
 
                     <div class="col-6">
                         <select class="form-select" size="9" aria-label="size 9 select example">
-                            <option selected>Open this select menu</option>
+                            
                             <option value="1">استشارات</option>
                             <option value="2">عقود عمالة متخصصة</option>
                             <option value="3">خدمات انترنت</option>
@@ -232,7 +236,7 @@
                 <div class="row  d-flex align-items-center mt-4">
                     <div class="col-5">
                         <label for="inputEmail4" class="mb-1">المواصفات</label>
-                        <textarea type="text" class="form-control col border-1 border-dark " placeholder="مجموعة أبحاث تم طلبها بخصوص موضوعات التنمية"></textarea>
+                        <textarea type="text" rows="5" cols="4" class="form-control col border-1 border-dark " placeholder="مجموعة أبحاث تم طلبها بخصوص موضوعات التنمية"></textarea>
 
 
                     </div>
@@ -241,7 +245,7 @@
                     <div class="col-5">
 
                         <label classfor="inputEmail4" class="mb-1">المبررات</label>
-                        <textarea type="text" class="form-control col border-1 border-dark " placeholder="توفير خطة تنمية متكاملة الابعاد للمشاريع الحالية و المستقبلية"></textarea>
+                        <textarea rows="5" cols="4" type="text" class="form-control col border-1 border-dark " placeholder="توفير خطة تنمية متكاملة الابعاد للمشاريع الحالية و المستقبلية"></textarea>
 
                     </div>
 
@@ -249,7 +253,7 @@
 
             </div>
             <div class="mt-5 row d-flex justify-content-end">
-                <button type="submit" class="btn    col-md-1 m-2 p-0 btn-secondary"> حفظ</button>
+                <button type="submit" class="btn    col-md-1 m-2 p-0 search-btn search-btn-size"> حفظ</button>
             </div>
 
             
@@ -276,18 +280,18 @@
             <span class="card-subtitle mb-5 text-muted me-4 ">المرفقات المدرجة</span>
 
 
-            <div class=" row  p-0 mb-4   justify-content-between  align-items-center">
+            <div class=" row  p-2 mb-4   justify-content-between  align-items-center">
                 <div class="  col-lg-7  col-sm-12 ">
-                    <span class="ms-1 col-6 d-sm-inline sideBar-title card-Title ">تكاليف أبحاث التنمية.ppt</span>
-
-                    <span class="ms-1  col-6 d-sm-inline  ">محمد احمد - 20/11/2021</span>
+                    <span class="ms-1 col-7 d-sm-inline    small-card-title">تكاليف أبحاث التنمية.ppt</span>
+                    <br />
+                    <span class="ms-1  col-6 d-sm-inline small-card-body ">محمد احمد - 20/11/2021</span>
                 </div>
 
-                <div class="col-lg-3 justify-content-between me-0 me-md-5 ">
-                    <a>
+                <div class="col-lg-3  d-flex justify-content-evenly me-0 me-md-5 ">
+                    <a class=" btn download-btn">
                         تحميل
                     </a>
-                    <a>
+                    <a class="btn delete-btn">
 
                         ازاله
                     </a>
@@ -298,18 +302,18 @@
 
             </div>
 
-           <div class=" row  p-0 mb-4   card-background justify-content-between  align-items-center">
+            <div class=" row  p-2 mb-4   card-background justify-content-between  align-items-center shadow-sm   ">
                 <div class="  col-lg-7  col-sm-12 ">
-                    <span class="ms-1 col-6 d-sm-inline sideBar-title card-Title ">تكاليف أبحاث التنمية.ppt</span>
-
-                    <span class="ms-1  col-6 d-sm-inline  ">محمد احمد - 20/11/2021</span>
+                    <span class="ms-1 col-7 d-sm-inline    small-card-title">تكاليف أبحاث التنمية.ppt</span>
+                    <br />
+                    <span class="ms-1  col-6 d-sm-inline small-card-body ">محمد احمد - 20/11/2021</span>
                 </div>
 
-                <div class="col-lg-3 justify-content-between me-0 me-md-5 ">
-                    <a>
+                <div class="col-lg-3  d-flex justify-content-evenly me-0 me-md-5 ">
+                    <a class=" btn download-btn">
                         تحميل
                     </a>
-                    <a>
+                    <a class="btn delete-btn">
 
                         ازاله
                     </a>
@@ -320,18 +324,18 @@
 
             </div>
 
-            <div class=" row  p-0 mb-4   justify-content-between  align-items-center">
+            <div class=" row  p-2 mb-4   justify-content-between  align-items-center">
                 <div class="  col-lg-7  col-sm-12 ">
-                    <span class="ms-1 col-6 d-sm-inline sideBar-title card-Title ">تكاليف أبحاث التنمية.ppt</span>
-
-                    <span class="ms-1  col-6 d-sm-inline  ">محمد احمد - 20/11/2021</span>
+                    <span class="ms-1 col-7 d-sm-inline    small-card-title">تكاليف أبحاث التنمية.ppt</span>
+                    <br />
+                    <span class="ms-1  col-6 d-sm-inline small-card-body ">محمد احمد - 20/11/2021</span>
                 </div>
 
-                <div class="col-lg-3 justify-content-between me-0 me-md-5 ">
-                    <a>
+                <div class="col-lg-3  d-flex justify-content-evenly me-0 me-md-5 ">
+                    <a class=" btn download-btn">
                         تحميل
                     </a>
-                    <a>
+                    <a class="btn delete-btn">
 
                         ازاله
                     </a>
@@ -342,18 +346,18 @@
 
             </div>
           
-            <div class=" row  pt-3 mb-0   card-background justify-content-between  align-items-center">
-                <div class="  col-7 ">
-                    <span class="ms-1  d-sm-inline  ">ادراج مرفق</span>
+            <div class=" row  p-3 mb-0   card-background  d-flex justify-content-between  align-items-center shadow   rounded">
+                <div class="  col-7   mb-4">
+                    <span class="ms-1  d-sm-inline ">ادراج مرفق</span>
                 </div>
 
-                <div class="col-md-12 justify-content-between me-0 me-md-5 ">
-                    <a class="btn col-5 ">
-                        تحميل
+                <div class="col-md-12 d-flex justify-content-around me-0  ">
+                    <a class="btn col  chosse-btn">
+                        اختيار مرفق
                     </a>
-                    <a class="btn col-5">
+                    <a class="btn col upload-btn">
 
-                        ازاله
+                        رفع مرفق جديد
                     </a>
 
 

@@ -19,7 +19,8 @@
         <div class="card d-inline-flex  small-card" style="width: 13rem;">
           
                 <li class="list-group-item  justify-content-evenly small-card pt-0">
-                <span class="pe-0 text-white ms-0">السنة المالية  2022/2023 </span>
+                <span class="small-card-title-home">السنة المالية</span>
+                <span class="pe-0 text-white ms-0 small-card-year ">  2022/2023 </span>
                
                 </li>
 
@@ -35,12 +36,12 @@
     <div class="  col-2  pb-4  d-flex flex-column  align-content-between justify-content-center">
 
 
-          <div class="fs-4 bi-speedometer2 d-flex justify-content-center mb-3">
+          <div class="fs-4 bi-speedometer2 d-flex justify-content-center  mb-3">
               <img src="~/images/required.svg" />
           </div>
 
-        <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1">اجمالي المطلوب</div>
-        <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1">1.225.000 K.D</div>
+            <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1 coulmn-title me-lg-5">اجمالي المطلوب</div>
+            <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1 coulmn-number me-lg-4">1.225.000 K.D</div>
       </div>
 
      <div class="  col-2  pb-4    d-flex flex-column  align-content-between justify-content-center">
@@ -50,8 +51,8 @@
               <img src="~/images/suggested.svg" />
           </div>
 
-        <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1">اجمالي المقترح</div>
-        <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1">1.225.000 K.D</div>
+            <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1 coulmn-title me-lg-5">اجمالي المقترح</div>
+            <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1 coulmn-number me-lg-4">K.D 1.225.000 </div>
       </div>
 
 
@@ -66,7 +67,7 @@
 
                                  <img src="~/images/needs.svg" />
 
-                    </i> <span class=" ms-1 d-none d-sm-inline sideBar-title text-black">الاحتياجات</span>
+                        </i> <span class=" ms-1  d-sm-inline  category-title">الاحتياجات</span>
                          <i class="fs-4 bi-people me-5">
 
                                     <img src="~/images/Add-new-icon.svg"/>
@@ -81,11 +82,11 @@
           
             <div class="card d-flex justify-content-center  small-card mb-4 bg-white p-0" >
                  <a href="#" class=" btn p-0  px-0 align-middle d-flex justify-content-start align-items-center">
-                                <i class="fs-4 bi-people">
+                        <i class="fs-4 bi-people me-4">
 
                                    <img src="~/images/log.svg"/>
 
-                    </i> <span class=" ms-1 d-none d-sm-inline sideBar-title text-black me-2">متابعة التعديلات</span>
+                        </i> <span class=" ms-1  d-sm-inline  me-2 category-title">متابعة التعديلات</span>
                       
 
                             </a>
@@ -103,7 +104,7 @@
 
                                      <img src="~/images/projects.svg" />
 
-                    </i> <span class=" ms-1 d-none d-sm-inline sideBar-title text-black">المشروعات</span>
+                        </i> <span class=" ms-1  d-sm-inline  category-title">المشروعات</span>
                          <i class="fs-4 bi-people me-5">
 
                                     <img src="~/images/Add-new-icon.svg"/>
@@ -117,11 +118,11 @@
           
             <div class="card d-flex justify-content-center  small-card mb-4 bg-white p-0" >
                  <a href="#" class=" btn p-0  px-0 align-middle d-flex justify-content-start align-items-center ">
-                                <i class="fs-4 bi-people p-0">
+                        <i class="fs-4 bi-people p-0 me-4">
 
                                      <img src="~/images/reports.svg"/>
 
-                    </i> <span class=" ms-1 d-none d-sm-inline sideBar-title text-black me-2">الاحتياجات</span>
+                        </i> <span class=" ms-1  d-sm-inline  me-2 category-title">التقارير</span>
                       
                             </a>
 
@@ -177,24 +178,50 @@
 
         <div >
 
-            <div class=" card-background p-0 card-header collapsed" aria-expanded=true
-            data-toggle="collapsed" data-patent="#accordion href="collapseOne">
+            <div class=" card-background p-0 card-header collapsed d-flex justify-content-between toggle1" aria-expanded=true
+                     data-toggle="collapsed" data-patent="#accordion href="collapseOne" >
 
-                <a class=" p-0 btn navbar-toggler" 
+                <a class=" p-0 btn navbar-toggler toggel1" 
                 type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <div class="pe-0">   
-        <div class="card d-inline-flex  small-card" >
+      <div class="pe-0 d-flex justify-content-around">
+                            <div class="card d-inline-flex  small-card" onclick="myFunction('.toggle1')">
           
                 <li class="list-group-item  justify-content-evenly small-card pt-0">
-                <span class="pe-0 text-white ms-0">السنة المالية 2021/2022 </span>
+                                    <span class="small-card-title-home">السنة المالية</span>
+                                    <span class="pe-0 text-white ms-0 small-card-year "> 2021/2022 </span>
                
                 </li>
 
         </div>
+                           
         
         </div>
     </a>
+                    <div class=" d-inline-flex align-content-center hide-element" >
+
+                        <span class="pe-0  ms-2 ">اجمالي المطلوب </span>
+                        <span class="fw-bold">  1.225.000 K.D. </span>
+
+                    </div>
+                    <div class=" d-inline-flex hide-element ">
+
+                        <span class="pe-0  ms-2 ">اجمالي المطلوب </span>
+                        <span class="fw-bold">  1.225.000 K.D. </span>
+
+                    </div>
+                    <div class=" d-inline-flex hide-element ">
+
+                        
+                        <span class="fw-bold ms-5"> المزيد </span>
+
+                    </div>
+                    <div class=" d-inline-flex show-element d-none">
+
+
+                        <span class="fw-bold ms-5"> اخفاء </span>
+
+                    </div>
 
         </div>
 
@@ -213,8 +240,8 @@
               <img src="~/images/required.svg" />
           </div>
 
-        <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1">اجمالي المطلوب</div>
-        <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1">1.225.000 K.D</div>
+                                <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1 coulmn-title me-lg-5">اجمالي المطلوب</div>
+                                <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1 coulmn-number me-lg-4">1.225.000 K.D</div>
       </div>
 
      <div class="  col-2  pb-4    d-flex flex-column  align-content-between justify-content-center">
@@ -224,8 +251,8 @@
               <img src="~/images/suggested.svg" />
           </div>
 
-        <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1">اجمالي المقترح</div>
-        <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1">1.225.000 K.D</div>
+                                <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1 coulmn-title me-lg-5">اجمالي المقترح</div>
+                                <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1 coulmn-number me-lg-4">1.225.000 K.D</div>
       </div>
 
 
@@ -240,10 +267,10 @@
 
                                      <img src="~/images/needs.svg" />
 
-                    </i> <span class=" ms-1 d-none d-sm-inline sideBar-title text-black">الاحتياجات</span>
+                                            </i> <span class=" ms-1  d-sm-inline  category-title">الاحتياجات</span>
                          <i class="fs-4 bi-people me-5">
 
-                                     
+                                    
 
                     </i>
                             </a>
@@ -255,11 +282,11 @@
           
             <div class="card d-flex justify-content-center  small-card mb-4 bg-white p-0" >
                  <a href="#" class=" btn p-0  px-0 align-middle d-flex justify-content-start align-items-center">
-                                <i class="fs-4 bi-people">
+                                            <i class="fs-4 bi-people me-4">
 
                                      <img src="~/images/log.svg"/>
 
-                    </i> <span class=" ms-1 d-none d-sm-inline sideBar-title text-black me-2">متابعة التعديلات</span>
+                                            </i> <span class=" ms-1  d-sm-inline  me-2 category-title">متابعة التعديلات</span>
                       
 
                             </a>
@@ -277,7 +304,7 @@
 
                                       <img src="~/images/projects.svg" />
 
-                    </i> <span class=" ms-1 d-none d-sm-inline sideBar-title text-black">المشروعات</span>
+                                            </i> <span class=" ms-1  d-sm-inline  category-title">المشروعات</span>
                          <i class="fs-4 bi-people me-5">
 
                                    
@@ -291,11 +318,11 @@
           
             <div class="card d-flex justify-content-center  small-card mb-4 bg-white p-0" >
                  <a href="#" class=" btn p-0  px-0 align-middle d-flex justify-content-start align-items-center ">
-                                <i class="fs-4 bi-people p-0">
+                                <i class="fs-4 bi-people p-0 me-4">
 
                                      <img src="~/images/reports.svg" />
 
-                    </i> <span class=" ms-1 d-none d-sm-inline sideBar-title text-black me-2">التقارير</span>
+                                            </i> <span class=" ms-1  d-sm-inline  me-2 category-title">التقارير</span>
                       
                             </a>
 
@@ -304,17 +331,17 @@
             </div>
     </div>
 
-       <div class="  col-lg-3  col-sm-6   m-3 d-flex flex-column  align-content-between justify-content-center">
+                                <div class="  col-lg-3  col-sm-6   p-4  ms-3 me-3 mb-3   d-flex flex-column  align-content-between justify-content-center">
 
            
-         <div class="card d-flex flex-column bg-white  small-card" >
+         <div class="card d-flex flex-column bg-white  small-card " >
 
-                <li class="list-group-item  border-0 bg-white justify-content-evenly small-card pt-0">
-                    <span class="pe-0  ms-0">تم اعتماد السنة المالية </span>
+                <li class="list-group-item  border-0 bg-white justify-content-evenly small-card pt-0 mt-3">
+                                            <span class="pe-0  ms-0 box-title ">تم اعتماد السنة المالية </span>
 
                 </li>
                  <li class="list-group-item  m-3 text-center border-0 bg-white justify-content-evenly small-card pt-0">
-                    <span class="pe-0  ms-0">30/12/2021 </span>
+                                            <span class="pe-0  ms-0 box-body">30/12/2021 </span>
 
                 </li>
              
@@ -348,16 +375,17 @@
 
         <div >
 
-            <div class=" card-background p-0 card-header collapsed" aria-expanded=true
-            data-toggle="collapsed" data-patent="#accordion href="collapseTwo">
+            <div class=" card-background p-0 card-header  d-flex justify-content-between collapsed toggle2" aria-expanded=true
+                 data-toggle="collapsed" data-patent="#accordion href=" collapseTwo" >
 
                 <a class=" p-0 btn navbar-toggler" type="button"
-                data-bs-toggle="collapse" data-bs-target="#navbarNav2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                   data-bs-toggle="collapse" data-bs-target="#navbarNav2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="myFunction('.toggle2')"onclick="myFunction('.toggle2')">
       <div class="pe-0">   
         <div class="card d-inline-flex  small-card" >
           
                 <li class="list-group-item  justify-content-evenly small-card pt-0">
-                <span class="pe-0 text-white ms-0">السنة المالية 2021/2022 </span>
+                                <span class="small-card-title-home">السنة المالية</span>
+                                <span class="pe-0 text-white ms-0 small-card-year  "> 2021/2022 </span>
                
                 </li>
 
@@ -365,6 +393,32 @@
         
         </div>
     </a>
+
+                <div class=" d-inline-flex align-content-center hide-element">
+
+                    <span class="pe-0  ms-2">اجمالي المطلوب </span>
+                    <span class="fw-bold">  1.225.000 K.D. </span>
+
+                </div>
+                <div class=" d-inline-flex hide-element ">
+
+                    <span class="pe-0  ms-2 ">اجمالي المطلوب </span>
+                    <span class="fw-bold">  1.225.000 K.D. </span>
+
+                </div>
+                <div class=" d-inline-flex hide-element ">
+
+
+                    <span class="fw-bold ms-5"> المزيد </span>
+
+                </div>
+                <div class=" d-inline-flex show-element d-none">
+
+
+                    <span class="fw-bold ms-5"> اخفاء </span>
+
+                </div>
+
 
         </div>
 
@@ -383,8 +437,8 @@
               <img src="~/images/required.svg" />
           </div>
 
-        <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1">اجمالي المطلوب</div>
-        <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1">1.225.000 K.D</div>
+                            <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1 coulmn-title me-lg-5">اجمالي المطلوب</div>
+                            <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1 coulmn-number me-lg-4">1.225.000 K.D</div>
       </div>
 
      <div class="  col-2  pb-4    d-flex flex-column  align-content-between justify-content-center">
@@ -394,8 +448,8 @@
               <img src="~/images/suggested.svg" />
           </div>
 
-        <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1">اجمالي المقترح</div>
-        <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1">1.225.000 K.D</div>
+                            <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1 coulmn-title me-lg-5">اجمالي المقترح</div>
+                            <div class="  d-sm-inline  d-flex pe-md-4 pe-sm-1 coulmn-number me-lg-4">1.225.000 K.D</div>
       </div>
 
 
@@ -410,13 +464,15 @@
 
                                      <img src="~/images/needs.svg" />
 
-                    </i> <span class=" ms-1 d-none d-sm-inline sideBar-title text-black">الاحتياجات</span>
+                                        </i> <span class=" ms-1  d-sm-inline  category-title">الاحتياجات</span>
                          <i class="fs-4 bi-people me-5">
 
                                      
 
                     </i>
                             </a>
+
+                                 
 
                 
 
@@ -425,11 +481,11 @@
           
             <div class="card d-flex justify-content-center  small-card mb-4 bg-white p-0" >
                  <a href="#" class=" btn p-0  px-0 align-middle d-flex justify-content-start align-items-center">
-                                <i class="fs-4 bi-people">
+                                        <i class="fs-4 bi-people me-4">
 
                                      <img src="~/images/log.svg"/>
 
-                    </i> <span class=" ms-1 d-none d-sm-inline sideBar-title text-black me-2">متابعة التعديلات</span>
+                                        </i> <span class=" ms-1  d-sm-inline  me-2 category-title">متابعة التعديلات</span>
                       
 
                             </a>
@@ -447,7 +503,7 @@
 
                                       <img src="~/images/projects.svg" />
 
-                    </i> <span class=" ms-1 d-none d-sm-inline sideBar-title text-black">المشروعات</span>
+                                        </i> <span class=" ms-1 d-sm-inline  category-title">المشروعات</span>
                          <i class="fs-4 bi-people me-5">
 
                                    
@@ -461,11 +517,11 @@
           
             <div class="card d-flex justify-content-center  small-card mb-4 bg-white p-0" >
                  <a href="#" class=" btn p-0  px-0 align-middle d-flex justify-content-start align-items-center ">
-                                <i class="fs-4 bi-people p-0">
+                                        <i class="fs-4 bi-people p-0 me-4">
 
                                      <img src="~/images/reports.svg" />
 
-                    </i> <span class=" ms-1 d-none d-sm-inline sideBar-title text-black me-2">التقارير</span>
+                                        </i> <span class=" ms-1  d-sm-inline  me-2 category-title">التقارير</span>
                       
                             </a>
 
@@ -474,19 +530,19 @@
             </div>
     </div>
 
-       <div class="  col-lg-3  col-sm-6   m-3 d-flex flex-column  align-content-between justify-content-center">
+                            <div class="  col-lg-3  col-sm-6  ms-3 me-3 mb-3 d-flex flex-column  align-content-between justify-content-center p-3">
 
            
-          <div class="card d-flex flex-column bg-white  small-card" >
+          <div class="card d-flex flex-column bg-white  small-card " >
 
-                <li class="list-group-item  border-0 bg-white justify-content-evenly small-card pt-0">
-                    <span class="pe-0  ms-0">تم اعتماد السنة المالية </span>
+                                    <li class="list-group-item  border-0 bg-white justify-content-evenly small-card pt-0 mt-3">
+                                        <span class="pe-0  ms-0 box-title ">تم اعتماد السنة المالية </span>
 
-                </li>
-                 <li class="list-group-item  m-3 text-center border-0 bg-white justify-content-evenly small-card pt-0">
-                    <span class="pe-0  ms-0">30/12/2021 </span>
+                                    </li>
+                                    <li class="list-group-item  m-3 text-center border-0 bg-white justify-content-evenly small-card pt-0 ">
+                                        <span class="pe-0  ms-0 box-body">30/12/2021 </span>
 
-                </li>
+                                    </li>
              
 
         </div>
@@ -512,3 +568,20 @@
 
 
 </div>
+
+
+
+<script type="text/javascript">
+
+                     function myFunction(name) {
+      
+
+      $(name).children(".hide-element").toggleClass("test");
+        $(name).children(".show-element").toggleClass("show");
+  
+}
+
+
+
+
+                 </script>

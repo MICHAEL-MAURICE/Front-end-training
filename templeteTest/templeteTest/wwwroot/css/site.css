@@ -14,6 +14,20 @@
     
 }
 
+.tabelheaderCenter {
+    vertical-align: middle;
+}
+.search-btn {
+   
+    background: #4E586D 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    color: #FFFFFF
+}
+.search-btn-size {
+    width: 139px;
+    height: 30px;
+}
 .sideBar-title {
     text-align: right;
     font: normal normal normal 14px/16px Almarai;
@@ -39,6 +53,78 @@
     background: #D2F8DF 0% 0% no-repeat padding-box;
     opacity: 1;
 
+
+}
+.chosse-btn {
+    background: #4E586D 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 2px;
+    opacity: 1;
+   
+    font: normal normal normal 14px/16px Almarai;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+   
+    justify-content:center;
+}
+.upload-btn {
+    background: #4E6D51 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 2px;
+    opacity: 1;
+    
+    font: normal normal normal 14px/16px Almarai;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+   
+}
+.btn-box {
+    background: #E5E5E5 0% 0% no-repeat padding-box;
+    box-shadow: 0px -3px 6px #00000029;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.small-card-title {
+    text-align: right;
+    font: normal normal bold 12px/18px Almarai;
+    letter-spacing: 0px;
+    color: #14213D;
+    opacity: 1;
+}
+.download-btn {
+    text-align: right;
+    font: normal normal normal 12px/14px Almarai;
+    letter-spacing: 0px;
+    color: #14213D;
+    opacity: 1;
+}
+
+.delete-btn {
+   
+    font: normal normal normal 12px/14px Almarai;
+    letter-spacing: 0px;
+    color: #6D4E4E;
+    opacity: 1;
+}
+
+.small-card-body {
+    text-align: right;
+    font: normal normal normal 12px/14px Almarai;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.green-card-header {
+    text-align: right;
+    font: normal normal bold 12px/24px Almarai;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.green-card-body {
+    text-align: right;
+    font: normal normal normal 12px/24px Almarai;
+    letter-spacing: 0px;
+    color: #000000;
 }
 .card-Title {
     text-align: right;
@@ -99,12 +185,88 @@
 .small-card :nth-child(5){
 
 }
-
-.main-title {
-    font: normal normal normal 18px/20px Almarai;
-    color: #706F6F;
-    font-weight: bold;
+.small-card-title-home {
+    text-align: right;
+    font: normal normal normal 12px/14px Almarai;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
 }
+.small-card-title {
+    text-align: right;
+    font: normal normal bold 12px/18px Almarai;
+    letter-spacing: 0px;
+    color: #14213D;
+    opacity: 1;
+}
+.category-title {
+    text-align: right;
+    font: normal normal bold 14px/22px Almarai;
+    letter-spacing: 0px;
+    color: #4E586D;
+    opacity: 1;
+}
+.small-card-year {
+    text-align: right;
+    font: normal normal bold 16px/25px Almarai;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.coulmn-title {
+    text-align: right;
+    font: normal normal normal 12px/14px Almarai;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.7;
+}
+.coulmn-number {
+    text-align: right;
+    font: normal normal bold 16px/25px Almarai;
+    letter-spacing: 0px;
+    color: #14213D;
+    opacity: 1;
+}
+.first-box-header {
+    text-align: right;
+    font: normal normal normal 14px/16px Almarai;
+    letter-spacing: 0px;
+    color: #4E586D;
+    opacity: 1;
+}
+.first-box-btn {
+    width: 170px;
+    height: 40px;
+    background: #4E586D 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 2px;
+  
+    text-align: right;
+    font: normal normal bold 14px/22px Almarai;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.box-title {
+    text-align: right;
+    font: normal normal bold 16px/25px Almarai;
+    letter-spacing: 0px;
+    color: #4E586D;
+    opacity: 1;
+}
+.box-body {
+    text-align: right;
+    font: normal normal normal 14px/16px Almarai;
+    letter-spacing: 0px;
+    color: #4E586D;
+    opacity: 1;
+}
+    .main-title {
+        font: normal normal normal 18px/20px Almarai;
+        color: #706F6F;
+        font-weight: bold;
+    }
 .secondary-title {
     font: normal normal normal 16px/18px Almarai;
     letter-spacing: 0px;
@@ -138,4 +300,14 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+
+
+.test
+{
+    display:none !important;
+}
+
+.show {
+    display: block !important;
 }
