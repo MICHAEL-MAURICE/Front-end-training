@@ -1,0 +1,25 @@
+add-migration NAME OF MIGRATION
+
+Remove-migration  to Remove the last Migration
+
+update-Database To Update the Database and add migrations to Database
+
+EfCore can add record to the table without typing the name of table
+
+_context.Add(emp); == _context.Employee.Add(emp);
+
+update-Database migration name  ------->  to back to spicific migration 
+
+
+_____________________________________video 6 not watched_____________________________________||||||||||||||||||||||||||||||||||||||||||||||||||||__________________
+
+DataAnnotations 
+[Required]  
+
+FluentApi
+protected override void OnModelCreating (ModelBuilder modelBuilder)
+{
+modelBuilder.Entity<Blog>()
+.Property (b => b.Url)
+.IsRequired();
+}
