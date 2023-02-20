@@ -29,3 +29,5 @@ Set Default Value
 modelBuilder.Entity<Blog>()
 .Property (b=> b.Rating)
 HasDefaultValue (2);
+__________________________________________
+Computed Columns video 22
