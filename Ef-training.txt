@@ -24,3 +24,8 @@ modelBuilder.Entity<Blog>()
 .IsRequired();
 }
 ________________________________________
+Set Default Value
+
+modelBuilder.Entity<Blog>()
+.Property (b=> b.Rating)
+HasDefaultValue (2);
