@@ -30,4 +30,44 @@ modelBuilder.Entity<Blog>()
 .Property (b=> b.Rating)
 HasDefaultValue (2);
 __________________________________________
-Computed Columns video 22
+Set Composite Key
+
+modelBuilder.Entity<Book> ()
+.Haskey (b=> new { b.Name, b.Author });
+}
+______________________________________________________
+Computed Columns 
+
+modelBuilder.Entity<Author>()
+.Property (p=>p.DisplayName)
+.HasComputedColumnSql("[LastName]+','+ [FirstName]");
+_____________________________________________
+Primary Key Default Value
+
+[DatabaseGenerated (DatabaseGeneratedoption. Identity)]
+
+____________________________________________________
+Indexes
+
+[Index (nameof (Url))] 
+in the top of class
+______________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
