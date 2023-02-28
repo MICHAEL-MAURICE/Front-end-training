@@ -71,6 +71,21 @@ select i;
 
 ______________________________________________________
 
+var Result = ProductList. Select (P => new { Name = P.ProductName, NewPrice = P.UnitPrice * 1.1M })
+.Where (P => P. NewPrice > 20);
+var R01 Product List. Select (P => new { Name = P.Product Name, NewPrice = P.UnitPrice* 1.1M });
+var R02 = R01. Where (P => P. NewPrice > 20);
+var RR01 from P in ProductList
+select new { Name = P.ProductName, NewPrice = P.UnitPrice* 1.1M };
+var RR02 = from P in RR01
+where P. NewPrice > 20
+select P;
+var RR = from P in ProductList
+select new Name = P.ProductName, NewPrice = P.UnitPrice * 1.1M }
+into Taxed Prd /// Introduct new Range Variable to Continue Query using New (Only) Range Variable
+where Taxed Prd. NewPrice > 20
+select Taxed Prd;
+_____________________________________________________________
 Xrm Tool Box :
 https://www.xrmtoolbox.com/
 
