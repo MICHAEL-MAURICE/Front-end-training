@@ -54,6 +54,23 @@ in the top of class
 ______________________________________________________
 
 
+//IEnumerable<int> Result = Enumerable. Where (Lst, i => i % 2 == 0);
+///Fluent Syntax
+///Static Function member in Enumerable Class
+var Result = Enumerable. Where (Lst, i => i % 2 == 0);
+///Extension Method
+var R = Lst. Where(i => i % 2 == 0); //.OrderByDescending (i=>i);
+///Query Expression \\ Query Syntax (SQL LIKE)
+var RR from i in Lst
+where i % 2 == 0
+select i;
+///Sql Like Style, valid for only Subset of (40+ LINQ Operators)
+///Some cases it is easier to write Query using Query Expression vs Fluent Syntax (Join, Group, Let, Into)
+///Start with From, introduce Range Variable (i): represent each and every element in Input Sequence
+///End with Select or Group By
+
+______________________________________________________
+
 Xrm Tool Box :
 https://www.xrmtoolbox.com/
 
