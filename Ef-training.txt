@@ -88,6 +88,10 @@ select Taxed Prd;
 _____________________________________________________________
 Xrm Tool Box :
 https://www.xrmtoolbox.com/
+______________________________________________________________________
+
+Command to make database first to code in EF
+Scaffold-DbContext "Server=DESKTOP-PVCHSTB\SQLEXPRESS;Database=1me-db-test;Integrated Security=True; TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
 
 
 
